@@ -8,9 +8,7 @@ This repository contains scripts to convert reviewer comments from a text file t
 
 - Converts reviewer comments from a text file into an Excel spreadsheet with organized columns.
 - Categorizes comments into "Reviewer 1", "Reviewer 2", "Major comment", and "Minor comment".
-- Includes a "done?" column to track the status of each comment.
-- Marks comments requiring additional input from lead authors or co-authors.
-- Converts the Excel spreadsheet into a Word document formatted for submission and proofing.
+- Converts the Excel spreadsheet into a Word document formatted for proofing and submission.
 
 ## Usage
 
@@ -23,7 +21,9 @@ This script converts reviewer comments from a text file into an Excel spreadshee
 3. **Done?**: Indicates whether the comment has been addressed, needs returning to by the lead author, or requires input from co-authors.
 4. **Response**: Contains the authors' response to the comment.
 
-The script is based on the unique format of the received reviews and can be adapted as needed.
+**The script is based on the unique format of the received reviews and can be adapted as needed.**
+
+NB: we added the columns "Done" and "Response" to the spreadsheet manually, which included some conditional formatting. These rules were accounted for in the following conversion from spreadsheet to word doc.
 
 ### Excel Spreadsheet to Word Document
 
