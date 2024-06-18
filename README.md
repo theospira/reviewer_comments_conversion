@@ -49,7 +49,7 @@ pip install openpyxl python-docx
 
 ## Acknowledgements
 
-    Coding assistance provided by ChatGPT from OpenAI.
+Coding assistance provided by [ChatGPT](https://openai.com/chatgpt) from OpenAI.
 
 ## Contributing
 
